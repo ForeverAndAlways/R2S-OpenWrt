@@ -4,6 +4,7 @@ on:
   push:
     branches: 
       - master
+      - 7.20stable
     paths:
       - '.github/workflows/R2S-OpenWrt.yml'
       - 'SEED/config.seed'
